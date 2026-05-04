@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "s_url",
+  "name": "s-url",
   "main": ".output/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -41,8 +41,8 @@
   "r2_buckets": [
     {
       "binding": "R2",
-      "preview_bucket_name": "s_url",
-      "bucket_name": "s_url" // IMPORTANT: Change this to your R2 bucket name, or create one with `wrangler r2 bucket create sink`
+      "preview_bucket_name": "s-url",
+      "bucket_name": "s-url" // IMPORTANT: Change this to your R2 bucket name, or create one with `wrangler r2 bucket create sink`
     }
   ],
   "triggers": {
